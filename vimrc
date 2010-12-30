@@ -4,6 +4,7 @@ call pathogen#helptags()
 set number
 set hlsearch
 set autoindent
+set hidden
 
 set softtabstop=2
 set shiftwidth=2
