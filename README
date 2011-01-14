@@ -1,5 +1,14 @@
-cd ~
-git clone http://github.com/cimm/dotvim.git ~/.vim
-ln -s ~/.vim/vimrc ~/.vimrc
-cd ~/.vim
-git submodule update --init
+# Prerequisite
+
+Don't forget to install ack if you want to use the grep replacement. I went for the homebrew install:
+
+    brew install ack
+
+# Installation
+
+    cd ~
+    git clone http://github.com/cimm/dotvim.git ~/.vim
+    ln -s ~/.vim/vimrc ~/.vimrc
+    cd ~/.vim
+    git submodule update --init
+
