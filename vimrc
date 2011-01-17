@@ -11,6 +11,17 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+" Strip trailing white spaces
+function! <SID>StripTrailingWhitespaces()
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  %s/\s\+$//e
+  let @/=_s
+  call cursor(l, c)
+endfunction
+map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
+
 if has("gui_running")
   set guioptions=egmrt
   colorscheme railscasts
