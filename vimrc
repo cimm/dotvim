@@ -11,6 +11,8 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+set listchars=tab:▸\ ,eol:¬
+
 " Strip trailing white spaces
 function! <SID>StripTrailingWhitespaces()
   let _s=@/
