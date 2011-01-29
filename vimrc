@@ -24,6 +24,9 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
 
+" Hide swap files in netrw
+let g:netrw_list_hide= '.*\.swp$'
+
 if has("gui_running")
   set guioptions=egmrt
   colorscheme railscasts
