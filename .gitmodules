@@ -10,3 +10,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/flog"]
+	path = bundle/flog
+	url = git://github.com/fousa/vim-flog.git

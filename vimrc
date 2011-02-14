@@ -13,6 +13,8 @@ set expandtab
 
 set listchars=tab:▸\ ,eol:¬
 
+silent exe "g:flog_enable"
+
 " Strip trailing white spaces
 function! <SID>StripTrailingWhitespaces()
   let _s=@/
