@@ -32,7 +32,7 @@ let g:netrw_list_hide= '.*\.swp$'
 if has("gui_running")
   set guioptions=egmrt
   colorscheme railscasts
-  set guifont=Inconsolata:h15
+  set guifont=Inconsolata:h20
   set fuoptions=maxvert,maxhorz
   set list
   set guioptions-=r
