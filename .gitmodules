@@ -13,3 +13,6 @@
 [submodule "bundle/flog"]
 	path = bundle/flog
 	url = git://github.com/fousa/vim-flog.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
