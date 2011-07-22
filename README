@@ -1,16 +1,8 @@
 # Prerequisites
 
-Build MacVim with cscope if you want to use the Flog gem. Here is how to get it with homebrew:
-
-    brew install macvim --enable-cscope
-
 Don't forget to install ack if you want to use the grep replacement. I went for the homebrew install:
 
     brew install ack
-
-The Flog gem is needed for showing the complexity score in the sidebar
-
-    gem install flog
 
 # Installation
 
