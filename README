@@ -10,5 +10,5 @@ Don't forget to install ack if you want to use the grep replacement. I went for 
     git clone http://github.com/cimm/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
-    git submodule update --init
+    git submodule update --init --recursive
 
