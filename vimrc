@@ -31,7 +31,7 @@ let g:netrw_list_hide= '.*\.swp$'
 
 if has("gui_running")
   set guioptions=egmrt
-  set background=dark
+  set background=light
   colorscheme solarized
   set guifont=Inconsolata:h20
   set fuoptions=maxvert,maxhorz
