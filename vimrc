@@ -11,17 +11,22 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
-set listchars=tab:▸\ ,eol:¬
-
-let g:solarized_hitrail=1
-
 " Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$'
 
 " Remove whitespace on save for Ruby files
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
+" Remap the arrow keys so I can't use them
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
+
+" GUI
 if has("gui_running")
+  let g:solarized_hitrail=1
+  set listchars=tab:▸\ ,eol:¬
   set guioptions=egmrt
   set background=light
   colorscheme solarized
@@ -30,9 +35,3 @@ if has("gui_running")
   set list
   set guioptions-=r
 endif
-
-" Remap the arrow keys so I can't use them
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
