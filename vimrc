@@ -15,25 +15,17 @@ set listchars=tab:▸\ ,eol:¬
 
 let g:solarized_hitrail=1
 
-" Strip trailing white spaces
-function! <SID>StripTrailingWhitespaces()
-  let _s=@/
-  let l = line(".")
-  let c = col(".")
-  %s/\s\+$//e
-  let @/=_s
-  call cursor(l, c)
-endfunction
-map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
-
 " Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$'
+
+" Remove whitespace on save for Ruby files
+autocmd BufWritePre *.rb :%s/\s\+$//e
 
 if has("gui_running")
   set guioptions=egmrt
   set background=light
   colorscheme solarized
-  set guifont=Inconsolata:h20
+  set guifont=Inconsolata:h16
   set fuoptions=maxvert,maxhorz
   set list
   set guioptions-=r
