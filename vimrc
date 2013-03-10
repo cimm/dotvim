@@ -2,9 +2,14 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set number
-set hlsearch
 set autoindent
 set hidden
+
+
+" Searching
+set hlsearch
+set ignorecase
+set smartcase " case-sensitive if search contains an uppercase character
 
 set softtabstop=2
 set shiftwidth=2
