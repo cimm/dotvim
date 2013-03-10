@@ -4,7 +4,7 @@ call pathogen#helptags()
 set number
 set autoindent
 set hidden
-
+set macmeta
 
 " Searching
 set hlsearch
