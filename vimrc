@@ -28,6 +28,8 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
+abbr destory destroy
+
 " GUI
 if has("gui_running")
   let g:solarized_hitrail=1
