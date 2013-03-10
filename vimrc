@@ -29,6 +29,7 @@ nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
 abbr destory destroy
+abbr clog console.log
 
 " GUI
 if has("gui_running")
