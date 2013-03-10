@@ -1,8 +1,8 @@
 # Prerequisites
 
-Don't forget to install ack if you want to use the grep replacement. I went for the homebrew install:
+Don't forget to install a search replacement if you don't like grep. The Silver Searcher is ack compatible and faster:
 
-    brew install ack
+    brew install ag
 
 # Installation
 
