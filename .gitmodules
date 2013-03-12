@@ -19,3 +19,6 @@
 [submodule "bundle/vim-yankstack"]
 	path = bundle/vim-yankstack
 	url = git://github.com/maxbrunsfeld/vim-yankstack.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git

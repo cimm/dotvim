@@ -16,6 +16,7 @@ git submodule update --init --recursive
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): full path fuzzy file finder
 - [fugitive](https://github.com/tpope/vim-fugitive): the git wrapper
 - [vim-coffee-script](https://github.com/kchmck/vim-coffee-script): syntax, indenting and compiling for CoffeeScript
+- [vim-markdown](https://github.com/plasticboy/vim-markdown): syntax highlighting for Markdown
 
 # Extra
 
