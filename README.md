@@ -17,8 +17,9 @@ git submodule update --init --recursive
 - [fugitive](https://github.com/tpope/vim-fugitive): the git wrapper
 - [vim-coffee-script](https://github.com/kchmck/vim-coffee-script): syntax, indenting and compiling for CoffeeScript
 - [vim-markdown](https://github.com/plasticboy/vim-markdown): syntax highlighting for Markdown
+- [ag.vim](https://github.com/rking/ag.vim): the silver searcher plugin
 
-# Extra
+# The Silver Searcher
 
 Install The Silver Searcher to replace `grep`, it's `ack` compatible and faster:
 
