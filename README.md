@@ -9,7 +9,6 @@ git submodule update --init --recursive
 ``` 
 # Plugins
 
-- [easymotion](https://github.com/Lokaltog/vim-easymotion): jump to any location in the buffer
 - [solarized](https://github.com/altercation/vim-colors-solarized): the colorscheme
 - [vim-yankstack](https://github.com/maxbrunsfeld/vim-yankstack): emacs's kill-ring
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): full path fuzzy file finder
