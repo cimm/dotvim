@@ -15,6 +15,14 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+" Statusline with branch and line number
+set statusline=
+set statusline+=%{fugitive#statusline()[4:-2]}
+set statusline+=\ %f\ %m\ %r
+set statusline+=%=
+set statusline+=%l/%L:%v
+set statusline+=
+
 " Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$'
 
@@ -27,6 +35,7 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
+" Autocorrect
 abbr destory destroy
 abbr clog console.log
 
@@ -43,3 +52,12 @@ if has("gui_running")
   set guioptions-=r
   set macmeta
 endif
+
+" Highlight words
+syntax enable
+highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=#cc2222 guifg=white
+match TechWordsToAvoid /\cobviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however\|so,\|easy\|console.log/
+autocmd BufWinEnter * match TechWordsToAvoid /\cobviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however,\|so,\|easy\|console.log/
+autocmd InsertEnter * match TechWordsToAvoid /\cobviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however,\|so,\|easy\|console.log/
+autocmd InsertLeave * match TechWordsToAvoid /\cobviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however,\|so,\|easy\|console.log/
+autocmd BufWinLeave * call clearmatches()
