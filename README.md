@@ -17,6 +17,7 @@ git submodule update --init --recursive
 - [vim-markdown](https://github.com/plasticboy/vim-markdown): syntax highlighting for Markdown
 - [ag.vim](https://github.com/rking/ag.vim): the silver searcher plugin
 - [vim-jade](https://github.com/digitaltoad/vim-jade): jade syntax highlighting and indention
+- [vim-ledger](https://github.com/ledger/vim-ledger): ledger syntax highlighting
 
 # The Silver Searcher
 

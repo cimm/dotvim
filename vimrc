@@ -29,6 +29,9 @@ let g:netrw_list_hide= '.*\.swp$'
 " Remove whitespace on save for Ruby files
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
+" Ledger syntax
+au BufNewFile,BufRead *.ldg,*.ledger setf ledger | comp ledger
+
 " Remap the arrow keys so I can't use them
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
