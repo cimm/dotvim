@@ -25,3 +25,6 @@
 [submodule "bundle/ledger"]
 	path = bundle/ledger
 	url = https://github.com/ledger/vim-ledger.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
