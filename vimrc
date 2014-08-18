@@ -33,6 +33,7 @@ set expandtab
 if has("gui_running")
   set macmeta " enable special keys on MacVim for vim-yankstack
   set guioptions-=r " hide scrollbars
+  set go-=L " no scrollbars when opening a split window
   set guifont=Inconsolata\ for\ Powerline:h14
 end
 
