@@ -22,6 +22,7 @@ Install `git` if you don't have it, but you probably do.
 
 Install Vundle plugins from the command line:
 
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qall
 
 ## Donations
