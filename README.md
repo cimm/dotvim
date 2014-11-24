@@ -15,7 +15,7 @@ I mostly use [MacVim](https://code.google.com/p/macvim/) so most settings are on
 Install `git` if you don't have it, but you probably do.
 
     cd ~
-    git clone http://github.com/cimm/dotvim.git ~/.vim
+    git clone https://github.com/cimm/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Cheatsheet
