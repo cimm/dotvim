@@ -42,6 +42,9 @@ end
 " Remove whitespace on save for Ruby files
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
+" Make CTRL+c identical to Esc (the double Esc prevents delays)
+inoremap <C-c> <Esc><Esc>
+
 " Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$'
 
