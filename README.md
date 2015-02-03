@@ -17,6 +17,8 @@ Install `git` if you don't have it, but you probably do.
     cd ~
     git clone https://github.com/cimm/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
+    
+[Airline](https://github.com/bling/vim-airline) needs a modified font to show the little icons in the status bar, I use [Inconsolata for Powerline](https://github.com/powerline/fonts/blob/master/Inconsolata/Inconsolata%20for%20Powerline.otf) which you'll need to install yourself.
 
 ## Cheatsheet
 
