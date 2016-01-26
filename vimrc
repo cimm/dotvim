@@ -76,6 +76,9 @@ set statusline+=%*
 " Markdown syntax highlighting
 let g:vim_markdown_folding_disabled=1
 
+" Visual autocomplete for command menu
+set wildmenu
+
 " Highlight words
 highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=#cc2222 guifg=white
 match TechWordsToAvoid /console.log/
