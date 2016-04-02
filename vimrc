@@ -86,3 +86,7 @@ autocmd BufWinEnter * match TechWordsToAvoid /console.log/
 autocmd InsertEnter * match TechWordsToAvoid /console.log/
 autocmd InsertLeave * match TechWordsToAvoid /console.log/
 autocmd BufWinLeave * call clearmatches()
+
+" Notes
+:let g:notes_directories = ['~/Documents/Notes']
+:let g:notes_suffix = '.md'
