@@ -14,7 +14,6 @@ Plugin 'kien/ctrlp.vim'                   " fuzzy file opener
 Plugin 'tpope/vim-fugitive'               " git
 Plugin 'kchmck/vim-coffee-script'         " coffeescript syntax highlighting
 Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
-Plugin 'slim-template/vim-slim'           " slim templates syntax highlighting
 Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
 Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
 Plugin 'xolox/vim-notes'                  " note taking
