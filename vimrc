@@ -17,7 +17,6 @@ Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
 Plugin 'slim-template/vim-slim'           " slim templates syntax highlighting
 Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
 Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
-Plugin 'heartsentwined/vim-emblem'        " emblem syntax highlight
 Plugin 'xolox/vim-notes'                  " note taking
 call vundle#end()
 filetype plugin indent on
