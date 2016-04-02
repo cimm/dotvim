@@ -17,6 +17,7 @@ Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
 Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
 Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
 Plugin 'xolox/vim-notes'                  " note taking
+Plugin 'xolox/vim-misc.git'               " vim-notes dependency
 call vundle#end()
 filetype plugin indent on
 
