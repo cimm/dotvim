@@ -59,7 +59,7 @@ abbr clog console.log
 
 " Solarized colorscheme
 if has("gui_running")
-  set background=light
+  set background=dark
   set listchars=tab:▸\ ,eol:¬
   colorscheme solarized
 end
