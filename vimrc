@@ -6,7 +6,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                " vundle itself
-Plugin 'wellsjo/wellsokai.vim'            " colorscheme
+Plugin 'altercation/vim-colors-solarized' " colorscheme
 Plugin 'bling/vim-airline'                " fancy statusbar
 Plugin 'scrooloose/syntastic'             " syntax checker
 Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
@@ -57,10 +57,11 @@ set smartcase " case-sensitive if search contains an uppercase character
 abbr destory destroy
 abbr clog console.log
 
-" Colorscheme
+" Solarized colorscheme
 if has("gui_running")
+  set background=light
   set listchars=tab:▸\ ,eol:¬
-  colorscheme wellsokai
+  colorscheme solarized
 end
 
 " Airline statusbar
