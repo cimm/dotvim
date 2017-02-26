@@ -26,11 +26,13 @@ set number        " line numbers
 set list          " show special chars
 set laststatus=2  " always show statusbar
 set hidden        " hides unsaved file instead of closing
+set directory-=.  " don't store swapfiles in the current directory
 set autoindent
 set softtabstop=2
 set shiftwidth=2
 set tabstop=2
 set expandtab
+
 
 if has("gui_running")
   set macmeta " enable special keys on MacVim for vim-yankstack
