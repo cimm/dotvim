@@ -18,6 +18,7 @@ Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
 Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
 Plugin 'xolox/vim-notes'                  " note taking
 Plugin 'xolox/vim-misc.git'               " vim-notes dependency
+Plugin 'arrufat/vala.vim'                 " vala syntax highligter
 call vundle#end()
 filetype plugin indent on
 
