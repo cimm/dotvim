@@ -8,8 +8,6 @@ This is a personal repository, I tend to drop or add stuff when I move from proj
 
 Most of this is stolen from other people's `vimrc` files, thank you dear internet.
 
-I mostly use [MacVim](https://code.google.com/p/macvim/) so most settings are only enabled in GUI mode and I like my terminal vim clean and simple.
-
 ## Installation
 
 Install `git` if you don't have it, but you probably do.
@@ -17,8 +15,6 @@ Install `git` if you don't have it, but you probably do.
     cd ~
     git clone https://github.com/cimm/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
-    
-[Airline](https://github.com/bling/vim-airline) needs a modified font to show the little icons in the status bar, I use [Inconsolata for Powerline](https://github.com/powerline/fonts/blob/master/Inconsolata/Inconsolata%20for%20Powerline.otf) which you'll need to install yourself.
 
 ## Cheatsheet
 
