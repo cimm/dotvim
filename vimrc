@@ -8,11 +8,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                " vundle itself
 Plugin 'altercation/vim-colors-solarized' " colorscheme
 Plugin 'bling/vim-airline'                " fancy statusbar
-Plugin 'scrooloose/syntastic'             " syntax checker
+Plugin 'w0rp/ale'                         " syntastic like linter but async
 Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
 Plugin 'kien/ctrlp.vim'                   " fuzzy file opener
 Plugin 'tpope/vim-fugitive'               " git
-Plugin 'kchmck/vim-coffee-script'         " coffeescript syntax highlighting
 Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
 Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
 Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
@@ -73,7 +72,6 @@ if has("gui_running")
 end
 set statusline+=%{fugitive#statusline()[4:-2]}
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 " Markdown syntax highlighting
