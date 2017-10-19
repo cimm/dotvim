@@ -36,10 +36,10 @@ set expandtab
 
 
 if has("gui_running")
-  set macmeta " enable special keys on MacVim for vim-yankstack
   set guioptions-=r " hide scrollbars
+  set guioptions-=T " hide toolbar
   set go-=L " no scrollbars when opening a split window
-  set guifont=Hack
+  set guifont=Hack\ 14
 end
 
 " Remove whitespace on save for Ruby files
