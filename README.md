@@ -10,7 +10,7 @@ Most of this is stolen from other people's `vimrc` files, thank you dear interne
 
 ## Installation
 
-Install `git` if you don't have it, but you probably do.
+Install `git` if you don't have it, but you probably do. Also install the [Hack](https://github.com/source-foundry/Hack) font.
 
     cd ~
     git clone https://github.com/cimm/dotvim.git ~/.vim
