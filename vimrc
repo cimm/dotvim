@@ -10,14 +10,14 @@ Plugin 'altercation/vim-colors-solarized' " colorscheme
 Plugin 'bling/vim-airline'                " fancy statusbar
 Plugin 'w0rp/ale'                         " syntastic like linter but async
 Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
-Plugin 'kien/ctrlp.vim'                   " fuzzy file opener
+Plugin 'ctrlpvim/ctrlp.vim'               " fuzzy file opener
 Plugin 'tpope/vim-fugitive'               " git
 Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
-Plugin 'ledger/vim-ledger'                " ledger syntax highlighting
-Plugin 'yaymukund/vim-rabl'               " rabl syntax highlighting
 Plugin 'xolox/vim-notes'                  " note taking
 Plugin 'xolox/vim-misc.git'               " vim-notes dependency
-Plugin 'arrufat/vala.vim'                 " vala syntax highligter
+Plugin 'chrisbra/csv.vim'                 " csv helper, does column sums
+Plugin 'nixon/vim-vmath.git'              " simple excel style calculations
+Plugin 'mileszs/ack.vim'                  " ack integration
 call vundle#end()
 filetype plugin indent on
 
@@ -79,6 +79,10 @@ let g:vim_markdown_folding_disabled=1
 
 " Visual autocomplete for command menu
 set wildmenu
+
+" Vmatch
+vmap <expr>  ++  VMATH_YankAndAnalyse()
+nmap         ++  vip++
 
 " Highlight words
 highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=#cc2222 guifg=white
