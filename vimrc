@@ -8,16 +8,17 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                " vundle itself
 Plugin 'altercation/vim-colors-solarized' " colorscheme
 Plugin 'bling/vim-airline'                " fancy statusbar
-Plugin 'w0rp/ale'                         " syntastic like linter but async
-Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
-Plugin 'ctrlpvim/ctrlp.vim'               " fuzzy file opener
-Plugin 'tpope/vim-fugitive'               " git
-Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
-Plugin 'xolox/vim-notes'                  " note taking
-Plugin 'xolox/vim-misc.git'               " vim-notes dependency
 Plugin 'chrisbra/csv.vim'                 " csv helper, does column sums
-Plugin 'nixon/vim-vmath.git'              " simple excel style calculations
+Plugin 'ctrlpvim/ctrlp.vim'               " fuzzy file opener
+Plugin 'junegunn/goyo.vim'                " focus mode
+Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
 Plugin 'mileszs/ack.vim'                  " ack integration
+Plugin 'nixon/vim-vmath.git'              " simple excel style calculations
+Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
+Plugin 'tpope/vim-fugitive'               " git
+Plugin 'w0rp/ale'                         " syntastic like linter but async
+Plugin 'xolox/vim-misc.git'               " vim-notes dependency
+Plugin 'xolox/vim-notes'                  " note taking
 call vundle#end()
 filetype plugin indent on
 
