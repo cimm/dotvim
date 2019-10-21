@@ -7,7 +7,6 @@ Plug 'gmarik/Vundle.vim'                " vundle itself
 Plug 'junegunn/goyo.vim'                " focus mode
 Plug 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
 Plug 'mileszs/ack.vim'                  " ack integration
-Plug 'nixon/vim-vmath.git'              " simple excel style calculations
 Plug 'plasticboy/vim-markdown'          " markdown syntax highlighting
 Plug 'tpope/vim-fugitive'               " git
 Plug 'vim-airline/vim-airline'          " fancy statusbar
@@ -83,7 +82,3 @@ autocmd BufRead,BufNewFile *.svelte setfiletype html
 
 " Plugin: vim-airline - fancy statusbar
 let g:airline_powerline_fonts=1
-
-" Plugin: vmath - simple excel style calculations
-vmap <expr>  ++  VMATH_YankAndAnalyse()
-nmap         ++  vip++
