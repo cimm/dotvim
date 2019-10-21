@@ -1,20 +1,19 @@
-" Vundle plugin manager
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'arcticicestudio/nord-vim'         " colorscheme
-Plugin 'chrisbra/csv.vim'                 " csv helper, does column sums
-Plugin 'ctrlpvim/ctrlp.vim'               " fuzzy file opener
-Plugin 'gmarik/Vundle.vim'                " vundle itself
-Plugin 'junegunn/goyo.vim'                " focus mode
-Plugin 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
-Plugin 'mileszs/ack.vim'                  " ack integration
-Plugin 'nixon/vim-vmath.git'              " simple excel style calculations
-Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
-Plugin 'tpope/vim-fugitive'               " git
-Plugin 'vim-airline/vim-airline'          " fancy statusbar
-Plugin 'w0rp/ale'                         " syntastic like linter but async
-Plugin 'evanleck/vim-svelte'              " svelte syntax
-call vundle#end()
+" Plug plugin manager
+call plug#begin('~/.vim/plugged')
+Plug 'arcticicestudio/nord-vim'         " colorscheme
+Plug 'chrisbra/csv.vim'                 " csv helper, does column sums
+Plug 'ctrlpvim/ctrlp.vim'               " fuzzy file opener
+Plug 'gmarik/Vundle.vim'                " vundle itself
+Plug 'junegunn/goyo.vim'                " focus mode
+Plug 'maxbrunsfeld/vim-yankstack'       " emacs style kill ring
+Plug 'mileszs/ack.vim'                  " ack integration
+Plug 'nixon/vim-vmath.git'              " simple excel style calculations
+Plug 'plasticboy/vim-markdown'          " markdown syntax highlighting
+Plug 'tpope/vim-fugitive'               " git
+Plug 'vim-airline/vim-airline'          " fancy statusbar
+Plug 'w0rp/ale'                         " syntastic like linter but async
+Plug 'evanleck/vim-svelte'              " svelte syntax
+call plug#end()
 
 filetype plugin indent on
 syntax enable
