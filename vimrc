@@ -13,6 +13,7 @@ Plugin 'plasticboy/vim-markdown'          " markdown syntax highlighting
 Plugin 'tpope/vim-fugitive'               " git
 Plugin 'vim-airline/vim-airline'          " fancy statusbar
 Plugin 'w0rp/ale'                         " syntastic like linter but async
+Plugin 'evanleck/vim-svelte'              " svelte syntax
 call vundle#end()
 
 filetype plugin indent on
@@ -40,6 +41,7 @@ set splitbelow splitright " open new split to right and bottom
 set tabstop=2
 set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png,.DS_Store,.git,*.swp " files I never want to open
 set wildmenu              " make tab completion work as in the terminal
+set nofoldenable          " disable code folding
 
 " Searching
 set hlsearch
@@ -76,6 +78,9 @@ let g:nord_italic_comments=1
 set cursorline
 let g:nord_cursor_line_number_background=1
 colorscheme nord
+
+" Plugin: svelte
+autocmd BufRead,BufNewFile *.svelte setfiletype html
 
 " Plugin: vim-airline - fancy statusbar
 let g:airline_powerline_fonts=1
